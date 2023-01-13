@@ -8,7 +8,7 @@ import DefaultData from "./default.js";
 import Router from "./routes/route.js";
 
 dotenv.config();
-const PORT = 8000;
+const PORT = process.env.PORT;
 const USERNAME = process.env.DB_USERNAME;
 const PASSWORD = process.env.DB_PASSWORD;
 
